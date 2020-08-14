@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Hermit</title>
+    <link>https://mikeymcgovern.github.io/</link>
+    <description>Recent content on Hugo Hermit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    
+	<atom:link href="https://mikeymcgovern.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://mikeymcgovern.github.io/about/</link>
+      <pubDate>Fri, 14 Aug 2020 14:43:02 -0400</pubDate>
+      
+      <guid>https://mikeymcgovern.github.io/about/</guid>
+      <description>I am a historian interested in how science has been used to construct and contest theories of human difference: categories, hierarchies, and the very ontologies that they organize. Among other things, my research spans the history of medical genetics, laboratory research on cognition, and the use of statistical evidence and concepts to challenge racial discrimination in the late twentieth century United States. I am also interested in the development and adoption of computing technologies, and the moral and epistemological hazards of efforts to render the organization and production of knowledge more efficient, even objective.</description>
+    </item>
+    
+  </channel>
+</rss>
