@@ -67,12 +67,12 @@ This document is a brief primer on using Go templates." />
 <meta name="twitter:description" content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 This document is a brief primer on using Go templates."/>
 
-	<link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
-	<link rel="manifest" href="../../site.webmanifest">
-	<link rel="mask-icon" href="../../safari-pinned-tab.svg" color="">
-	<link rel="shortcut icon" href="../../favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
 
 	<title>(Hu)go Template Primer</title>
 	<link rel="stylesheet" href="https://www.michaelfmcgovern.com/css/style.min.58ce8036fa4e8e652a48f44cd2e973d7c5abbc3f099bd17e14c833a4310a7db9.css" integrity="sha256-WM6ANvpOjmUqSPRM0ulz18WrvD8Jm9F+FMgzpDEKfbk=" crossorigin="anonymous">
@@ -155,7 +155,7 @@ functions.</p>
 <p>Each Go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-<a href="../../layout/variables">variables</a> page.</p>
+<a href="/layout/variables">variables</a> page.</p>
 <p>A variable is accessed by referencing the variable name.</p>
 <pre><code>&lt;title&gt;{{ .Title }}&lt;/title&gt;
 </code></pre>
@@ -166,7 +166,7 @@ page you are rendering. More details are available on the
 <h2 id="functions">Functions<a href="#functions" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 <p>Go template ship with a few functions which provide basic functionality. The Go
 template system also provides a mechanism for applications to extend the
-available functions with their own. <a href="../../layout/functions">Hugo template
+available functions with their own. <a href="/layout/functions">Hugo template
 functions</a> provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -297,7 +297,7 @@ type (supported by your front matter/config format) and use them however
 you want to inside of your templates.</p>
 <h2 id="using-content-page-parameters">Using Content (page) Parameters<a href="#using-content-page-parameters" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 <p>In each piece of content you can provide variables to be used by the
-templates. This happens in the <a href="../../content/front-matter">front matter</a>.</p>
+templates. This happens in the <a href="/content/front-matter">front matter</a>.</p>
 <p>An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
 doesn&rsquo;t make a lot of sense. We&rsquo;ve defined a variable in our front matter
